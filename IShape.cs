@@ -6,7 +6,17 @@ using System.Threading.Tasks;
 
 namespace Ice_Task_3
 {
-    class IShape
+    public class IShape
     {
+        public string Name { get; set; }
+        public IShape(string name)
+        {
+            Name = name;
+        }
+
+        public virtual void Display()
+        {
+            Console.WriteLine("Shape: " + Name);
+        }
     }
 }
