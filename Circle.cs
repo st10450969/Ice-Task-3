@@ -6,8 +6,7 @@ using System.Threading.Tasks;
 
 namespace Ice_Task_3
 {
-    public interface ICalculateArea
+    class Circle
     {
-        double calculateeArea();
     }
 }
